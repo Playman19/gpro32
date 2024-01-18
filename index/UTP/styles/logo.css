@@ -1,0 +1,22 @@
+.utp-logo {
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+}
+@media(min-width:760px) {
+    .utp-logo {
+        width: 300px;
+        height: 150px;
+        left: 30px;
+        bottom: 30px;
+        border-radius: 8px;
+    }
+}
+@media(max-width:759px) {
+    .utp-logo {
+        width: 120px;
+        height: 60px;
+        left: 18px;
+        bottom: 18px;
+    }
+}

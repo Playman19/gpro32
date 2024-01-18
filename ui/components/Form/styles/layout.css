@@ -1,0 +1,15 @@
+.form-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(min-width:760px) {
+    .form-wrapper {
+        height: 600px;
+    }
+}
+@media(max-width:759px) {
+    .form-wrapper {
+        height: 450px;
+    }
+}

@@ -1,0 +1,80 @@
+#slider-1 {
+    background-image: url('../img/1.webp');
+}
+#slider-2 {
+    background-image: url('../img/2.webp');
+}
+#slider-3 {
+    background-image: url('../img/3.webp');
+}
+.slider > div > a {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider > div > a > span {
+    color: white;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.40);
+    z-index: 2;
+}
+.slider-blur {
+    position: relative;
+}
+.slider-blur::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000060;
+    border-radius: 15px;
+}
+@media(min-width:1600px) {
+    .slider > div > a {
+        width: 450px;
+        height: 299px;
+    }
+}
+@media(min-width:1100px) and (max-width:1599px) {
+    .slider > div > a {
+        width: calc(450px/1.4);
+        height: calc(299px/1.4);
+    }
+}
+@media(min-width:1100px) {
+    .slider > div > a > span {
+        font-size: 40px;
+    }
+}
+@media(min-width:760px) and (max-width:1099px) {
+    .slider > div > a {
+        width: 210px;
+        height: 140px;
+    }
+    .slider > div > a > span {
+        font-size: 18px;
+    }
+}
+@media(max-width:759px) {
+    .slider > div > a > span {
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+@media(min-width:390px) and (max-width:759px) {
+    .slider > div > a {
+        width: calc(300px*1.25);
+        height: calc(199px*1.25);
+    }
+}
+@media(max-width:389px) {
+    .slider > div > a {
+        width: 300px;
+        height: 199px;
+    }
+}

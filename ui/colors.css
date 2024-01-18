@@ -1,0 +1,30 @@
+.red {
+    color: var(--red);
+}
+.red-hover {
+    color: var(--red-hover);
+}
+.red-gradient {
+    color: var(--red-gradient);
+}
+.navygreen {
+    color: var(--navygreen);
+}
+.navygreen-hover {
+    color: var(--navygreen-hover);
+}
+.yellow {
+    color: var(--yellow);
+}
+.yellow-hover {
+    color: var(--yellow-hover);
+}
+.font {
+    color: var(--font);
+}
+.green {
+    color: var(--green);
+}
+.darkgreen {
+    color: var(--darkgreen);
+}

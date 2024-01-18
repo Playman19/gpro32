@@ -1,0 +1,94 @@
+.partners-h {
+    color: var(--red-gradient);
+}
+.partners-grid > a {
+    position: relative;
+    border-radius: 4px;
+}
+@media(min-width:1100px) {
+    .partners-grid > a > img {
+        width: 280px;
+        height: 100px;
+    }
+    .partners-grid > a:hover {
+        box-shadow: rgba(241, 2, 2, 0.288) 0px 8px 24px;
+    }
+    .partners-grid > a > article {
+        width: 280px;
+        font-size: 16px;
+    }
+}
+@media(min-width:760px) {
+    .partners-grid {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 1fr;
+        gap: 12px;
+    }
+    .partners-h {
+        margin: 0 0 32px 0;
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .partners-grid > a {
+        padding: 16px;
+        cursor: pointer;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        transition: box-shadow .2s ease-in-out;
+    }
+    .partners-grid > a > span {
+        display: block;
+        text-align: center;
+    }
+    .partners-grid > a > span {
+        margin-top: 28px;
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    .partners-grid > a > article {
+        position: absolute;
+        bottom: 16px;
+    }
+}
+@media(min-width:760px) and (max-width:1099px) {
+    .partners-grid > a > img {
+        width: 208px;
+        height: 80px;
+    }
+}
+@media(max-width:759px) {
+    .partners-grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .partners-grid > a > img {
+        display: block;
+        margin-inline:auto;
+        width: 280px;
+        height: 100px;
+    }
+    .partners-h {
+        margin: 0 0 24px 0;
+        font-size: 21px;
+        font-weight: 500;
+    }
+    .partners-grid > a {
+        padding: 12px;
+        border: 1px solid rgba(128, 128, 128, 0.685);
+        margin-bottom: 10px;
+    }
+    .partners-grid > a > span {
+        display: block;
+        text-align: center;
+    }
+    .partners-grid > a > span {
+        margin-top: 24px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .partners-grid > a > article {
+        position: absolute;
+        bottom: 12px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,2 @@
+User-agent: Yandex
+Sitemap: https://gpro32.ru/sitemap.xml

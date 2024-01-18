@@ -1,0 +1,39 @@
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4,
+.icon-5,
+.icon-6,
+.icon-7,
+.icon-8,
+.icon-9,
+.icon-10,
+.icon-11,
+.icon-12,
+.icon-13,
+.icon-14,
+.icon-15,
+.icon-16,
+.icon-17 {
+    width: 76px;
+    height: 76px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.icon-1{background-image:url('1.webp');}
+.icon-2{background-image:url('2.webp');}
+.icon-3{background-image:url('3.webp');}
+.icon-4{background-image:url('4.webp');}
+.icon-5{background-image:url('5.webp');}
+.icon-6{background-image:url('6.webp');}
+.icon-7{background-image:url('7.webp');}
+.icon-8{background-image:url('8.webp');}
+.icon-9{background-image:url('9.webp');}
+.icon-10{background-image:url('10.webp');}
+.icon-11{background-image:url('11.webp');}
+.icon-12{background-image:url('12.webp');}
+.icon-13{background-image:url('13.webp');}
+.icon-14{background-image:url('14.webp');}
+.icon-15{background-image:url('15.webp');}
+.icon-16{background-image:url('16.webp');}
+.icon-17{background-image:url('17.webp');}

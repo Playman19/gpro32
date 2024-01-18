@@ -1,0 +1,84 @@
+@import url('fonts/fonts.css');
+@import url('colors.css');
+@import url('icons/webp/export.css');
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+* {
+    font-family: Inter;
+}
+:root {
+    --red:#B8150E;
+    --red-hover:#C33832;
+    --red-gradient:#DC3D1A;
+    --navygreen:#007064;
+    --navygreen-hover:#26857B;
+    --yellow:#FC3;
+    --yellow-hover:#FFD452;
+    --white: #FFFFFF;
+    --font:#01221E;
+    --green: #004D00;
+    --darkgreen: #002900;
+}
+
+.all2s {
+    transition: all .2s;
+}
+.off-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+.flex {
+    display: flex;
+}
+.none {
+    display: none;
+}
+.hidden {
+    overflow: hidden;
+}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+.link-highlight {
+    -webkit-tap-highlight-color: transparent;
+}
+.caps {
+    text-transform: uppercase;
+}
+.pr {
+    cursor: pointer;
+}
+.bold {
+    font-weight: 700;
+}
+.rub::after {
+    content: "\20BD";
+}
+.rub-rus::after {
+    content: "р";
+}
+.fcc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
