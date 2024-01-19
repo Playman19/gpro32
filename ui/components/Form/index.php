@@ -1,4 +1,4 @@
-<section class="form-wrapper">
+<section class="form-wrapper" id="ask-form">
     <form action="/" class="ask-form" method="post">
         <p class="font"><span class="red">Оставьте заявку</span> и мы свяжемся с вами</p>
         <input type="text" placeholder="Имя" name="name">

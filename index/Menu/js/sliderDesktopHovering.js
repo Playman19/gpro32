@@ -30,8 +30,8 @@ const sliderDesktopHovering = () => {
         }
     })
 };
-if(window.innerWidth>1100) {
-    document.addEventListener('DOMContentLoaded',()=>{
-        sliderDesktopHovering()
-    })
-}
+document.addEventListener('DOMContentLoaded',()=>{
+    if(window.innerWidth>1100) {
+            sliderDesktopHovering()
+        }
+})

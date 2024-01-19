@@ -23,8 +23,5 @@
     <script src="/ui/components/Form/js/igrulki.js" defer></script>
     <script src="/ui/metrika.js" defer></script>
 
-    
-
-    <title>Document</title>
 </head>
 <body>

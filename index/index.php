@@ -1,5 +1,6 @@
 <?php
 require __DIR__ . '/head.php';
+require __DIR__ . '/../ui/metrika.php';
 require_once __DIR__ . '/UTP/index.php';
 require_once __DIR__ . '/About/index.php';
 require_once __DIR__ . '/Menu/index.php';

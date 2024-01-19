@@ -1,1 +1,102 @@
-@import url('styles/layout.css');
+header {
+    width: 100%;
+    background-color: var(--red-gradient);
+    background-attachment: fixed;
+}
+.h-cont {
+    width: 82%;
+    margin: 0 auto;
+    display: flex;
+}
+.h-cont > nav > a {
+    color: white;
+}
+.h-cont > nav {
+    display: flex;
+}
+.h-cont > nav > a {
+    font-weight: 500;
+    background-repeat: no-repeat;
+}
+#h-tel {
+    background-image: url('img/mobile-white.png');
+}
+#h-wa {
+    background-image: url('img/whatsApp-white.png');
+}
+#h-tg {
+    background-image: url('img/tg-white.png');
+}
+@media(min-width:1090px) {
+    .h-cont {
+        justify-content: space-between;
+    }
+    .h-cont > nav {
+        width: 760px;
+    }
+}
+@media(min-width:760px) and (max-width:1089px) {
+    .h-cont {
+        flex-direction: column;
+    }
+    .h-cont > nav {
+        margin-top: 20px;
+    }
+}
+@media(min-width:760px) {
+    .h-cont > nav {
+        justify-content: space-between;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .h-cont > nav > a {
+        font-size: 24px;
+    }
+    .h-cont > nav > a {
+        padding-left: 38px;
+        background-size: 32px;
+        line-height: 32px;
+    }
+    header {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+@media(max-width:759px) {
+    header {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .h-cont {
+        justify-content: space-between;
+    }
+    .h-cont > nav {
+        flex-direction: column;
+        height: 64px;
+        justify-content: space-between;
+    }
+    .h-cont > nav > a {
+        font-size: 14px;
+        padding-left: 19px;
+        background-size: 16px;
+        line-height: 16px;
+    }
+}
+.h-logo {
+    background-image: url('img/logojpg-min.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media(min-width:515px) {
+    .h-logo {
+        width: 149px;
+        height: 78px;
+    }
+}
+@media(max-width:514px) {
+    .h-logo {
+        width: 104px;
+        height: 52px;
+    }
+}

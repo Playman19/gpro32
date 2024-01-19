@@ -1,0 +1,5 @@
+@import url('styles/layout.css');
+@import url('styles/flex.css');
+.seomod-1::before {
+    content: "G_Pro - ";
+}

@@ -1,0 +1,27 @@
+.slider {
+    width: 100%;
+    background: linear-gradient(90deg, #B80E0E 2.46%, #DC3D1A 105.67%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(min-width:1600px) {
+    .slider {
+        height: 500px;
+    }
+}
+@media(min-width:1100px) and (max-width:1599px) {
+    .slider {
+        height: 380px;
+    }
+}
+@media(min-width:760px) and (max-width:1099px) {
+    .slider {
+        height: 238px;
+    }
+}
+@media(max-width:759px) {
+    .slider {
+        padding: 60px 0 25px 0;
+    }
+}
